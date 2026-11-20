@@ -1,0 +1,30 @@
+{
+  "state": {
+    "first": "<image:1>",
+    "second": "<image:2>"
+  },
+  "media": [
+    {
+      "type": "image",
+      "path": "images/blue_square.png"
+    },
+    {
+      "type": "image",
+      "path": "images/red_circle.png"
+    }
+  ],
+  "questions": {
+    "which": {
+      "type": "choice",
+      "instructions": "Which image shows a circle?",
+      "criteria": {
+        "first": "the first image",
+        "second": "the second image"
+      }
+    },
+    "both_blue": {
+      "type": "noul",
+      "instructions": "Are both shapes blue?"
+    }
+  }
+}

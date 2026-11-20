@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+OneJev/
+serve.patch
+models/
+*.safetensors

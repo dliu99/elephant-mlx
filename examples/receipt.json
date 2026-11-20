@@ -1,0 +1,36 @@
+{
+  "state": {
+    "ticket": "I think I was charged twice for order 4471. Receipt attached.",
+    "receipt": "<image:1>"
+  },
+  "media": [
+    {
+      "type": "image",
+      "path": "images/receipt.png"
+    }
+  ],
+  "questions": {
+    "double": {
+      "type": "noul",
+      "instructions": "Does the receipt show the same card charge listed twice?"
+    },
+    "total": {
+      "type": "choice",
+      "instructions": "What total does the receipt show as charged?",
+      "criteria": {
+        "42.10": "$42.10",
+        "84.20": "$84.20",
+        "126.30": "$126.30"
+      }
+    },
+    "team": {
+      "type": "choice",
+      "instructions": "Which team should handle this?",
+      "criteria": {
+        "billing": "Charges, refunds, invoices",
+        "technical": "App or site faults",
+        "fraud": "Suspected unauthorised use"
+      }
+    }
+  }
+}

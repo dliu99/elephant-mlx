@@ -1,0 +1,30 @@
+{
+  "state": "<image:1>",
+  "media": [
+    {
+      "type": "image",
+      "path": "images/green_triangle.png"
+    }
+  ],
+  "questions": {
+    "color": {
+      "type": "choice",
+      "instructions": "What color is the main shape in the image?",
+      "criteria": {
+        "red": "red",
+        "green": "green",
+        "blue": "blue",
+        "yellow": "yellow"
+      }
+    },
+    "shape": {
+      "type": "choice",
+      "instructions": "What shape is shown in the image?",
+      "criteria": {
+        "circle": "a circle",
+        "square": "a square",
+        "triangle": "a triangle"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# extra packages for the parity tests (torch reference on CPU)
+-r ../requirements.txt
+torch>=2.10
+accelerate
+pydantic
